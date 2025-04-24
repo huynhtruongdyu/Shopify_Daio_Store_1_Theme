@@ -19,7 +19,7 @@
       </div>
 
       <!-- NAVIGATION MENU -->
-      <nav class="hidden md:flex space-x-10 gap-4">
+      <nav class="hidden md:flex space-x-10 gap-3">
         {% for link in main_menu_link.links %}
           {% if link.links != blank %}
             {% assign link_handle = link.handle | replace: '-', '_  ' %}
